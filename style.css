@@ -1,0 +1,31 @@
+.tabela-videos {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabela-videos th, .tabela-videos td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabela-videos img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .tabela-videos img:hover {
+    transform: scale(1.1);
+  }
+  
+  .tabela-videos a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .tabela-videos th {
+    color: red;
+    background-color: #000;
+  }
